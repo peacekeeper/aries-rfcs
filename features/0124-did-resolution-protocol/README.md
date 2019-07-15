@@ -196,7 +196,7 @@ Using a remote DID Resolver should only be considered a fallback when a local DI
 cannot be used. Relying on a remote DID Resolver raises the question of who operates it, can you trust
 its responses, and can MITM and other attacks occur? There is essentially a chicken-and-egg problem
 insofar as the purpose of DID Resolution is to discover metadata needed for trustable interaction with
-an entity, but the precondition is that interation with a DID Resolver must itself be trustable.
+an entity, but the precondition is that interaction with a DID Resolver must itself be trustable.
 
 Furthermore, the use of remote DID Resolvers may introduce central bottlenecks and undermine important
 design principles such as decentralization.
