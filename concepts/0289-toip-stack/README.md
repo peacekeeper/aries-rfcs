@@ -231,11 +231,11 @@ The ToIP governance stack is also designed to be compatible with—and an implem
 ## Envisioning a Network of Decentralized Identity Ecosystems
 As ToIP Architecture is adopted, the flexibility of Layer One and Layer Four concepts will allow for ecosystems of interoperable and trustworthy DID Ledgers to co-exists at scale. These DID Ledgers, or *Peer-Nets*, represent distinct systems of domain specific ledgers operated by decentralized peer nodes and are associated with a DID root or sub namespaces (i.e.: did:xxx, did.xxx.yyy). Each Peer-Net is managed by a specific organization or consortium that establishes the governance framework. While these Peer-Nets may be operated by different governing bodies and leverage different governance frameworks, they may adhere to a common ToIP Metasystem Governance Framework, the set of business, legal and technical governance documents that describe how members of a distinct ToIP Metasystem will operate. New opportunities may also reveal themselves whereby governing bodies may outsource the operations and maintenance of a Peer-Net to *Identity Utility Administrator*, service providers that specialize in the implementation of governance frameworks at Layer One.
 
-In ToIP Architecture the topic of *trust* is handle at Layer One with respect to cryptographic keys and at Layer Three with respect to data. As independent yet interoperable Peer-Nets emerge, the topic of trust is also addressed at Layer Four whereby governance frameworks at the metatsystem level can declare which Peer-Nets are trusted.
+In ToIP Architecture the topic of *trust* is handled at Layer One with respect to cryptographic keys and at Layer Three with respect to data. As independent yet interoperable Peer-Nets emerge, the topic of trust is also addressed at Layer Four whereby governance frameworks at the metatsystem level can declare which Peer-Nets are trusted.
 
 ![Figure 6](./img/fig-6-metasystem.png)
 
-As depicted in Figure 6 above, the Acme ToIP Metasystem Governance Framework would declare which Peer-Nets are trusted. Such declarations fo trust along with other metadata about the physical aspects of a Peer-Net will need to be generally available.
+As depicted in Figure 6 above, the Acme ToIP Metasystem Governance Framework would declare which Peer-Nets are trusted. Such declarations of trust along with other metadata about the physical aspects of a Peer-Net will need to be generally available.
 
 * **Remote Peer-Net**: A system of ledgers associated with a DID Root Namespace that operates under its own Governance Framework.  
 * **Trusted Remote Network**: The system of ledgers under a Root Namespace that adhere to a specific ToIP Metasystem Governance Framework.
